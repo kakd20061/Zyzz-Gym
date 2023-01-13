@@ -1,0 +1,425 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/obj/Debug/net6.0/scopedcss/projectbundle/ZyzzGymOriginal.bundle.scp.css",
+      "PackagePath": "staticwebassets/ZyzzGymOriginal.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/fonts/fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets/fonts/fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/fonts/fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets/fonts/fontawesome-webfont.woff"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/fonts/fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets/fonts/fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/images/contact-bg.jpg",
+      "PackagePath": "staticwebassets/images/contact-bg.jpg"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/images/cta-bg.jpg",
+      "PackagePath": "staticwebassets/images/cta-bg.jpg"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/images/features-first-icon.png",
+      "PackagePath": "staticwebassets/images/features-first-icon.png"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/images/first-trainer.jpg",
+      "PackagePath": "staticwebassets/images/first-trainer.jpg"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/images/gym-video.mp4",
+      "PackagePath": "staticwebassets/images/gym-video.mp4"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/images/line-dec.png",
+      "PackagePath": "staticwebassets/images/line-dec.png"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/images/logo_admin.png",
+      "PackagePath": "staticwebassets/images/logo_admin.png"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/images/logo_transparent.png",
+      "PackagePath": "staticwebassets/images/logo_transparent.png"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/images/schedule-bg.jpg",
+      "PackagePath": "staticwebassets/images/schedule-bg.jpg"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/images/second-trainer.jpg",
+      "PackagePath": "staticwebassets/images/second-trainer.jpg"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/images/slide1.png",
+      "PackagePath": "staticwebassets/images/slide1.png"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/images/slide2.png",
+      "PackagePath": "staticwebassets/images/slide2.png"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/images/slide3.png",
+      "PackagePath": "staticwebassets/images/slide3.png"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/images/tabs-first-icon.png",
+      "PackagePath": "staticwebassets/images/tabs-first-icon.png"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/images/team-image.jpg",
+      "PackagePath": "staticwebassets/images/team-image.jpg"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/images/team-image01.jpg",
+      "PackagePath": "staticwebassets/images/team-image01.jpg"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/images/team-image02.jpg",
+      "PackagePath": "staticwebassets/images/team-image02.jpg"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/images/team-image03.jpg",
+      "PackagePath": "staticwebassets/images/team-image03.jpg"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/images/team-image04.jpg",
+      "PackagePath": "staticwebassets/images/team-image04.jpg"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/images/team-image05.jpg",
+      "PackagePath": "staticwebassets/images/team-image05.jpg"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/images/therock.jpg",
+      "PackagePath": "staticwebassets/images/therock.jpg"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/images/third-trainer.jpg",
+      "PackagePath": "staticwebassets/images/third-trainer.jpg"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/images/training-image-01.jpg",
+      "PackagePath": "staticwebassets/images/training-image-01.jpg"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/images/training-image-02.jpg",
+      "PackagePath": "staticwebassets/images/training-image-02.jpg"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/images/training-image-03.jpg",
+      "PackagePath": "staticwebassets/images/training-image-03.jpg"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/images/training-image-04.jpg",
+      "PackagePath": "staticwebassets/images/training-image-04.jpg"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/js/accordions.js",
+      "PackagePath": "staticwebassets/js/accordions.js"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/js/custom.js",
+      "PackagePath": "staticwebassets/js/custom.js"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/js/imgfix.min.js",
+      "PackagePath": "staticwebassets/js/imgfix.min.js"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/js/jquery-2.1.0.min.js",
+      "PackagePath": "staticwebassets/js/jquery-2.1.0.min.js"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/js/jquery.counterup.min.js",
+      "PackagePath": "staticwebassets/js/jquery.counterup.min.js"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/js/mixitup.js",
+      "PackagePath": "staticwebassets/js/mixitup.js"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/js/popper.js",
+      "PackagePath": "staticwebassets/js/popper.js"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/js/scrollreveal.min.js",
+      "PackagePath": "staticwebassets/js/scrollreveal.min.js"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/js/waypoints.min.js",
+      "PackagePath": "staticwebassets/js/waypoints.min.js"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/Users/michalbialoz/Projects/Zyzz-Gym/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.ZyzzGymOriginal.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.build.ZyzzGymOriginal.props",
+      "PackagePath": "build\\ZyzzGymOriginal.props"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.ZyzzGymOriginal.props",
+      "PackagePath": "buildMultiTargeting\\ZyzzGymOriginal.props"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.ZyzzGymOriginal.props",
+      "PackagePath": "buildTransitive\\ZyzzGymOriginal.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

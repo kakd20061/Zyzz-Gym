@@ -1,27 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "D:\\projektyVisualStudio\\ZyzzGymOriginal\\ZyzzGymOriginal.csproj": {}
+    "/Users/michalbialoz/Projects/Zyzz-Gym/ZyzzGymOriginal.csproj": {}
   },
   "projects": {
-    "D:\\projektyVisualStudio\\ZyzzGymOriginal\\ZyzzGymOriginal.csproj": {
+    "/Users/michalbialoz/Projects/Zyzz-Gym/ZyzzGymOriginal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\projektyVisualStudio\\ZyzzGymOriginal\\ZyzzGymOriginal.csproj",
+        "projectUniqueName": "/Users/michalbialoz/Projects/Zyzz-Gym/ZyzzGymOriginal.csproj",
         "projectName": "ZyzzGymOriginal",
-        "projectPath": "D:\\projektyVisualStudio\\ZyzzGymOriginal\\ZyzzGymOriginal.csproj",
-        "packagesPath": "C:\\Users\\Kajetan\\.nuget\\packages\\",
-        "outputPath": "D:\\projektyVisualStudio\\ZyzzGymOriginal\\obj\\",
+        "projectPath": "/Users/michalbialoz/Projects/Zyzz-Gym/ZyzzGymOriginal.csproj",
+        "packagesPath": "/Users/michalbialoz/.nuget/packages/",
+        "outputPath": "/Users/michalbialoz/Projects/Zyzz-Gym/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Kajetan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/michalbialoz/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -81,7 +80,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -93,7 +93,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
         }
       }
     }

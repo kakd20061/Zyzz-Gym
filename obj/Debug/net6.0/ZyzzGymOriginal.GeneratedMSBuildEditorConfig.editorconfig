@@ -5,116 +5,117 @@ build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ZyzzGymOriginal
 build_property.RootNamespace = ZyzzGymOriginal
-build_property.ProjectDir = D:\projektyVisualStudio\ZyzzGymOriginal\
+build_property.ProjectDir = /Users/michalbialoz/Projects/Zyzz-Gym/
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = true
-build_property.MSBuildProjectDirectory = D:\projektyVisualStudio\ZyzzGymOriginal
+build_property.MSBuildProjectDirectory = /Users/michalbialoz/Projects/Zyzz-Gym
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/projektyVisualStudio/ZyzzGymOriginal/Areas/Identity/Pages/Account/Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+[/Users/michalbialoz/Projects/Zyzz-Gym/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9Mb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projektyVisualStudio/ZyzzGymOriginal/Areas/Identity/Pages/Account/Logout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
+[/Users/michalbialoz/Projects/Zyzz-Gym/Areas/Identity/Pages/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9Mb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projektyVisualStudio/ZyzzGymOriginal/Areas/Identity/Pages/Account/Register.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+[/Users/michalbialoz/Projects/Zyzz-Gym/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9SZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projektyVisualStudio/ZyzzGymOriginal/Areas/Identity/Pages/Account/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
+[/Users/michalbialoz/Projects/Zyzz-Gym/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9fVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projektyVisualStudio/ZyzzGymOriginal/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+[/Users/michalbialoz/Projects/Zyzz-Gym/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projektyVisualStudio/ZyzzGymOriginal/Areas/Identity/Pages/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[/Users/michalbialoz/Projects/Zyzz-Gym/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projektyVisualStudio/ZyzzGymOriginal/Areas/Identity/Pages/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+[/Users/michalbialoz/Projects/Zyzz-Gym/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projektyVisualStudio/ZyzzGymOriginal/Views/Administration/AdminPanel.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRpb25cQWRtaW5QYW5lbC5jc2h0bWw=
+[/Users/michalbialoz/Projects/Zyzz-Gym/Views/Administration/AdminPanel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5pc3RyYXRpb24vQWRtaW5QYW5lbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projektyVisualStudio/ZyzzGymOriginal/Views/Administration/AnnouncementsEdit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRpb25cQW5ub3VuY2VtZW50c0VkaXQuY3NodG1s
+[/Users/michalbialoz/Projects/Zyzz-Gym/Views/Administration/AnnouncementsEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5pc3RyYXRpb24vQW5ub3VuY2VtZW50c0VkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projektyVisualStudio/ZyzzGymOriginal/Views/Administration/ExerciseEdit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRpb25cRXhlcmNpc2VFZGl0LmNzaHRtbA==
+[/Users/michalbialoz/Projects/Zyzz-Gym/Views/Administration/ExerciseEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5pc3RyYXRpb24vRXhlcmNpc2VFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projektyVisualStudio/ZyzzGymOriginal/Views/Administration/PricingEdit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRpb25cUHJpY2luZ0VkaXQuY3NodG1s
+[/Users/michalbialoz/Projects/Zyzz-Gym/Views/Administration/PricingEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5pc3RyYXRpb24vUHJpY2luZ0VkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projektyVisualStudio/ZyzzGymOriginal/Views/Administration/Requests.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRpb25cUmVxdWVzdHMuY3NodG1s
+[/Users/michalbialoz/Projects/Zyzz-Gym/Views/Administration/Requests.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5pc3RyYXRpb24vUmVxdWVzdHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projektyVisualStudio/ZyzzGymOriginal/Views/GymTracking/Achievements.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3ltVHJhY2tpbmdcQWNoaWV2ZW1lbnRzLmNzaHRtbA==
+[/Users/michalbialoz/Projects/Zyzz-Gym/Views/GymTracking/Achievements.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR3ltVHJhY2tpbmcvQWNoaWV2ZW1lbnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projektyVisualStudio/ZyzzGymOriginal/Views/GymTracking/Statistics.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3ltVHJhY2tpbmdcU3RhdGlzdGljcy5jc2h0bWw=
+[/Users/michalbialoz/Projects/Zyzz-Gym/Views/GymTracking/Statistics.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR3ltVHJhY2tpbmcvU3RhdGlzdGljcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projektyVisualStudio/ZyzzGymOriginal/Views/Main/Announcements.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxBbm5vdW5jZW1lbnRzLmNzaHRtbA==
+[/Users/michalbialoz/Projects/Zyzz-Gym/Views/Main/Announcements.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWFpbi9Bbm5vdW5jZW1lbnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projektyVisualStudio/ZyzzGymOriginal/Views/Main/Contact.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxDb250YWN0LmNzaHRtbA==
+[/Users/michalbialoz/Projects/Zyzz-Gym/Views/Main/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWFpbi9Db250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projektyVisualStudio/ZyzzGymOriginal/Views/Main/Home.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxIb21lLmNzaHRtbA==
+[/Users/michalbialoz/Projects/Zyzz-Gym/Views/Main/Home.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWFpbi9Ib21lLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projektyVisualStudio/ZyzzGymOriginal/Views/Main/Pricing.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxQcmljaW5nLmNzaHRtbA==
+[/Users/michalbialoz/Projects/Zyzz-Gym/Views/Main/Pricing.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWFpbi9QcmljaW5nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projektyVisualStudio/ZyzzGymOriginal/Views/Main/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxQcml2YWN5LmNzaHRtbA==
+[/Users/michalbialoz/Projects/Zyzz-Gym/Views/Main/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWFpbi9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projektyVisualStudio/ZyzzGymOriginal/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+[/Users/michalbialoz/Projects/Zyzz-Gym/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projektyVisualStudio/ZyzzGymOriginal/Views/Shared/_LoginPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+[/Users/michalbialoz/Projects/Zyzz-Gym/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projektyVisualStudio/ZyzzGymOriginal/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[/Users/michalbialoz/Projects/Zyzz-Gym/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projektyVisualStudio/ZyzzGymOriginal/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[/Users/michalbialoz/Projects/Zyzz-Gym/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projektyVisualStudio/ZyzzGymOriginal/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+[/Users/michalbialoz/Projects/Zyzz-Gym/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projektyVisualStudio/ZyzzGymOriginal/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-kos6f267mj
+[/Users/michalbialoz/Projects/Zyzz-Gym/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-jl09vwvkhm
 
-[D:/projektyVisualStudio/ZyzzGymOriginal/Views/Shared/_LayoutAdminPanel.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRBZG1pblBhbmVsLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = b-ar82eldrgi
+[/Users/michalbialoz/Projects/Zyzz-Gym/Views/Shared/_LayoutAdminPanel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXRBZG1pblBhbmVsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-6iynek2ws2
