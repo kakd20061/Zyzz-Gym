@@ -1,0 +1,66 @@
+﻿@model AdministrationAnnouncementsEditVm
+
+@{
+    Layout = "~/Views/Shared/_LayoutAdminPanel.cshtml";
+    ViewData["Title"] = "Announcements Edit";
+}
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalLabel">Error</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" id="errorMessage">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" id="modalButton" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container" style="box-shadow: 0 0px 20px -5px rgba(0,0,0,0.5);margin-top:8em; margin-bottom:8em;">
+    <h1 class="text-light text-center">Announcements panel <i class="fa-solid fa-bullhorn text-danger"></i></h1>
+    <ul class="list-group ">
+        @foreach(var item in Model.Announcements)
+        {
+                <li class="list-group-item list-group-item-dark bg-dark text-light mt-5 border-0"><form asp-action="editChanges" onsubmit="return validateAnnouncementsEdit(@item.Id)">Id: <input asp-for="formData.Id" class="form-control bg-secondary border-secondary text-light" type="text" value="@item.Id" readonly/> Title: <input asp-for="formData.Title" class="form-control" type="text" value="@item.Title" id = "titleEdit-@item.Id"/> Photo Url: <input asp-for="formData.PhotoUrl" class="form-control" type="text" value="@item.PhotoUrl" id = "urlEdit-@item.Id"/> Description: <input asp-for="formData.Description" class="form-control" type="text" value="@item.Description" id = "descEdit-@item.Id"/> <input class="form-control btn btn-success" type="submit" value="Save"/></form></li>
+
+        }
+    </ul>
+        <center><div class="row g-3">
+            <div class="col"> <a class="btn btn-success mt-5 mb-5" data-bs-toggle="modal" data-bs-target = "#addModal"> Add new announcement  <i class="bi bi-plus-circle"></i></a></div>
+                       <div class="col"> <a class="btn btn-danger mt-5 mb-5" data-bs-toggle="modal" data-bs-target = "#removeModal"> Remove announcement  <i class="bi bi-dash-circle"></i></a></div>
+                       
+            </div></center>
+</div>
+<div class="modal" tabindex="-1"  id="addModal">
+<div class="modal-dialog modal-dialog-centered">
+     <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Add announcement</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form asp-action="Add" onsubmit="return validateAnnouncementsAdd()"><div class="text-danger" id="titleError"></div><div class="text-danger" id="urlError"></div><div class="text-danger" id="descriptionError"></div>Title: <input asp-for="formData.Title" class="form-control" id="title" type="text"/> Photo Url: <input asp-for="formData.PhotoUrl" class="form-control" id="url" type="text" /> Description: <input asp-for="formData.Description" class="form-control" id="desc" type="text"/> <input class="form-control btn btn-success" type="submit" value="Add"/></form>
+      </div>
+    </div>
+</div>
+</div>
+
+<div class="modal" tabindex="-1"  id="removeModal">
+<div class="modal-dialog modal-dialog-centered">
+     <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Remove announcement from list</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form asp-action="Delete">ID: <input asp-for="formData.Id" class="form-control" type="text"/><input class="form-control btn btn-danger" type="submit" value="Delete"/></form>
+      </div>
+    </div>
+</div>
+</div>

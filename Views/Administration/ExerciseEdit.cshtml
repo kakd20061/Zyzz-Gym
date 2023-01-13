@@ -1,0 +1,60 @@
+﻿@model AdministrationExerciseEditVm
+
+@{
+    Layout = "~/Views/Shared/_LayoutAdminPanel.cshtml";
+    ViewData["Title"] = "Exercise Edit";
+}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<div class="modal fade" id="modal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalLabel">Error</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" id="errorMessageExercise">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" id="modalButton" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container" style="box-shadow: 0 0px 20px -5px rgba(0,0,0,0.5);margin-top:8em; margin-bottom:8em;">
+    <h1 class="text-light text-center">Exercise Panel <i class="fa-solid fa-dumbbell text-danger"></i></h1>
+    <ul class="list-group ">
+        @foreach(var item in Model.exerciseName)
+        {
+                    <li class="list-group-item border-0 list-group-item-dark bg-dark text-light mt-5">
+                        <form asp-action="editExercise" id="@item.Id" onsubmit="return validateExerciseEdit(@item.Id)">
+                            Id: <input asp-for="formData.Id" class="form-control bg-secondary border-secondary text-light"  type="text" value="@item.Id" readonly/> 
+                            Exercise Name: <input asp-for="formData.Name" class="form-control" id="exerciseNameEdit-@item.Id" type="text" value = "@item.Name"/> 
+                            <button class="form-control btn btn-success" form="@item.Id" type="submit">Save</button>
+                        </form>
+                    </li>        
+        }
+    </ul>
+        <center><div class="row g-3">
+            <div class="col"> <a class="btn btn-success mt-5 mb-5" data-bs-toggle="modal" data-bs-target = "#addModal"> Add new exercise  <i class="bi bi-plus-circle"></i></a></div>
+                       
+            </div>
+        </center>
+</div>
+<div class="modal" tabindex="-1"  id="addModal">
+<div class="modal-dialog modal-dialog-centered">
+     <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Add exercise</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form asp-action="exerciseAdd" onsubmit="return validateExerciseAdd()">
+            <div class="text-danger" id="NameInputError"></div>
+            Exercise Name: <input asp-for="formData.Name" id="nameInput" class="form-control" type="text"/>
+            <input class="form-control btn btn-success" type="submit" value="Add"/>
+        </form>
+      </div>
+    </div>
+</div>
+</div>

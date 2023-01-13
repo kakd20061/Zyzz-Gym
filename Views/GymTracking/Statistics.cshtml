@@ -1,0 +1,48 @@
+﻿@model GymTrackingStatisticsVm
+
+@{
+    ViewData["Title"] = "Statistics";
+}
+
+  <div class="main-content" style="margin-top: 7em; margin-bottom: 8em; margin-right: 1em;margin-left: 1em;">
+    <div class="header bg-gradient-primary pb-8 pt-5 pt-md-8">
+      <div class="container-fluid">
+        <h2 class="text-white text-center position-relative section-title mb-4">Statistics</h2>
+
+        <h5 class="mb-2 text-white text-center"> Average lifted weight by gym users:  @Math.Round(Model.Achievements.Average(n=>n.Weight),1) kg</h5>
+        <div class="header-body">
+
+          <div class="row">
+            <!-- SINGLE CARD -->
+            @foreach(var item in Model.Max)
+            {
+                <div class="col-xl-3 col-lg-6 mt-5">
+                  <div class="card card-stats mb-4 mb-xl-0" style="background:rgb(0,0,0.91);">
+                    <div class="card-body" style="background:rgb(0,0,0.91);">
+                      <div class="row">
+                        <div class="col">
+                          <h5 class="card-title text-uppercase text-muted mb-0">Max weight lifted</h5>
+                          <span class="h2 font-weight-bold text-danger mb-0">@Model.ExerciseName.FirstOrDefault(n=>n.Id == item.ExerciseForeignKey).Name</span>
+                        </div>
+                        <div class="col-auto">
+                          <span class="badge rounded-pill bg-danger"><i class="fas fa-chart-bar"></i></span>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <h5 class="card-title text-uppercase text-muted mb-0" style="font-size:15px;">Done by: @item.User.Email</h5>
+                        <span class="h2 font-weight-bold text-danger mb-0">@item.Weight kg</span>
+                      </div>
+                      <p class="mt-3 mb-0 text-muted text-sm">
+                        <span class="text-nowrap">@item.CreatedAt</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>      
+            }
+            
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+

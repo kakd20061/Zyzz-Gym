@@ -1,0 +1,30 @@
+﻿@model MainAnnouncementsVm
+
+@{
+    ViewData["Title"] = "Announcements";
+}
+<div class="pricing-area" style="margin-top:6em; margin-bottom:8em;">
+    <div class="container">
+        <h2 class="text-light text-center position-relative section-title mb-4">News</h2>
+        <div class="row">
+            @foreach(var item in Model.Announcements)
+            {
+             <div class="col-md-3 mt-5">
+                <div class="card-sl">
+                    <div class="card-image opacity-75">
+                        <img
+                            src="@item.PhotoUrl" />
+                    </div>
+                    <div class="card-heading bg-dark text-light">
+                        @item.Title
+                    </div>
+                    <div class="card-text bg-dark text-light">
+                        @item.Description
+                    </div>
+                    <h6 class="card-button bg-danger text-light">Added: @item.CreatedAt</h6>
+                </div>
+            </div>
+            }
+        </div>
+    </div>
+</div>

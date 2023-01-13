@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "bd359508-5c30-42db-a0f0-b4b10c8054db": {
+      "ProjectGuid": "bd359508-5c30-42db-a0f0-b4b10c8054db",
+      "DisplayName": "ZyzzGymOriginal",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Różne pliki",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}

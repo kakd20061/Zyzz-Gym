@@ -1,0 +1,41 @@
+﻿@model AdministrationRequestsVm
+
+@{
+    Layout = "~/Views/Shared/_LayoutAdminPanel.cshtml";
+    ViewData["Title"] = "Requests";
+}
+
+
+<div class="container" style="box-shadow: 0 0px 20px -5px rgba(0,0,0,0.5);margin-top:8em; margin-bottom:8em;">
+    <h1 class="text-light text-center">Your Requests <i class="fa-solid fa-check-to-slot text-danger"></i></h1>
+    @if (Model.Count > 0)
+    {
+        <ul class="list-group ">
+            @foreach (var item in Model.Requests)
+            {
+
+                <li class="list-group-item list-group-item-dark bg-dark text-light mt-5" style="border:none;">
+                    <div class="row">
+                        <div class="col">
+                            <h2 class="">@item.Name</h2>
+                        </div>
+                        <div class="col">
+                            <form asp-action="Decline" asp-route-id="@item.Id">
+                                <button class="form-control btn btn-danger" type="submit">Decline  <i class="fa-regular fa-circle-xmark"></i></button>
+                            </form>
+                        </div>
+                        <div class="col">
+                            <form asp-action="Accept" asp-route-id = "@item.Id">
+                                <button class="form-control btn btn-success" type="submit">Accept  <i class="fa-regular fa-circle-check"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </li>
+            }
+        </ul>
+    }
+    else
+    {
+        <h4 class="text-light text-center mt-5">You don't have any requests. Good job <i class="fa-solid fa-thumbs-up"></i></h4>
+    }
+</div>

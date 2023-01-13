@@ -1,0 +1,171 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using ZyzzGymOriginal.Areas.Identity.Pages.Account
+@using ZyzzGymOriginal.Services
+@inject SignInManager<NewIdentityUser> SignInManager
+@inject UserManager<NewIdentityUser> UserManager
+@inject IAdministrationViewModelProvider provider
+
+<!DOCTYPE html>
+<html lang="en" class="bg-dark">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - ZyzzGymOriginal</title>
+
+    @*basic js and css*@
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <script type="text/javascript" src="~/js/site.js"></script>
+
+    @*extension js lib*@
+    <script src="https://kit.fontawesome.com/48d022ce54.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+    @*extension css lib*@
+    <link rel="stylesheet" href="~/ZyzzGymOriginal.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" type="text/css" href="~/css~/css/font-awesome.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap"
+          rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" />
+
+    @*google font implementation*@
+    <style>
+        html, body, h3, h4, span, p, .single-deal li, .price .money sup, .price .money {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+<body class="p-0 m-0 border-0 bg-dark">
+
+  @*loading screen*@
+
+
+
+    <nav class="navbar navbar-expand-xl navbar-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand text-light" asp-controller="Main" asp-action="Home"><img src="~/images/logo_transparent.png" style="width:250px;height:40px;object-fit:cover;" /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-lg-0">
+                    <li class="nav-item">
+                        <a asp-controller="GymTracking" asp-action="Statistics" class="nav-link">Statistics</a>
+                    </li>
+                    @if (SignInManager.IsSignedIn(User))
+                    {
+                        <li class="nav-item">
+                            <a asp-controller="GymTracking" asp-action="Achievements" class="nav-link">Achievements</a>
+                        </li>
+                    }
+                    <li class="nav-item">
+                        <a asp-controller="Main" asp-action="Pricing" class="nav-link">Membership</a>
+                    </li>
+                    <li class="nav-item">
+                        <a asp-controller="Main" asp-action="Announcements" class="nav-link">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a asp-controller="Main" asp-action="Contact" class="nav-link">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="@Url.Action("Home","Main")#about" class="nav-link">About</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav navbar-social ">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </ul>
+                <ul class="navbar-nav">
+                    @if (SignInManager.IsSignedIn(User))
+                    {
+                        @if(User.Identity?.Name == "gizard.biznes123@vp.pl")
+                        {
+                            <li class="nav-item">
+                                <a asp-controller="Administration" asp-action="AdminPanel" class="nav-link position-relative">Administration
+                                    @if(provider.Count()>0 && provider.Count()<=9)
+                                    {
+                                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                            @provider.Count()
+                                            <span class="visually-hidden">unread messages</span>
+                                        </span>
+                                    }
+                                    else if(provider.Count()>9)
+                                    {
+                                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                            9+
+                                            <span class="visually-hidden">unread messages</span>
+                                        </span>
+                                    }
+                                </a>
+
+                            </li>
+                        }
+                        <li>
+                            <form class="form-inline" id="logout" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Home", "Main", new { area = "" })">
+                                <a href="javascript:$('#logout').submit();" class="nav-link btn btn-danger text-light sign">Logout</a>
+                            </form>
+                        </li>
+                        
+                    }
+                    else
+                    {
+                        <li>
+                             <a class="nav-link btn btn-danger text-light sign" asp-area="identity" asp-page="/account/login">sign in</a>
+                        </li>
+                    }
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <main>
+        @RenderBody()
+    </main>
+
+    <footer class="footer fixed-bottom me-auto">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">&copy; 2022 - ZyzzGymOriginal - <a asp-controller="Main" asp-action="Privacy" class="privacyButton">Privacy<i class="fa-solid fa-paperclip"></i></a></div>
+                <div class="col">
+                    <div class="me-3 fs-6 text">
+                        Created by
+                        <a href="https://github.com/kakd20061" target="_blank" class="privacyButton">Kajetan Dąbrowski</a>,
+                        <a href="https://github.com/sachcim" target="_blank" class="privacyButton">Michał Białożyt</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        $('body').append('<div style="" id="loadingDiv"><div class="loader">Loading...</div></div>');
+        $(window).on('load', function () {
+            setTimeout(removeLoader, 100); //wait for page load PLUS two seconds.
+        });
+        function removeLoader() {
+            $("#loadingDiv").fadeOut(500, function () {
+                // fadeOut complete. Remove the loading div
+                $("#loadingDiv").remove(); //makes page more lightweight
+            });
+        }
+
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("muSkeHsQu_jKmIdfu");
+        })();
+    </script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

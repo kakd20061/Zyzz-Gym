@@ -1,0 +1,66 @@
+﻿@model AdministrationPricingEditVm
+
+@{
+    Layout = "~/Views/Shared/_LayoutAdminPanel.cshtml";
+    ViewData["Title"] = "Pricing Edit";
+}
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalLabel">Error</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" id="errorText">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" id="modalButton" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container" style="box-shadow: 0 0px 20px -5px rgba(0,0,0,0.5);margin-top:8em; margin-bottom:8em;">
+    <h1 class="text-light text-center"> Membership panel <i class="fa-solid fa-coins text-danger"></i></h1>
+    <ul class="list-group ">
+        @foreach(var item in Model.Pricing)
+        {
+                <li class="border-0 list-group-item list-group-item-dark bg-dark text-light mt-5"><form asp-action="editPrices" onsubmit="return validatePriceEdit(@item.Id)">Id: <input asp-for="formData.Id" class="form-control bg-secondary border-secondary text-light" type="text" value="@item.Id" readonly/> Name: <input asp-for="formData.PassTypeName" id="priceNameEdit-@item.Id" class="form-control" type="text" value="@item.PassTypeName"/> Price: <input asp-for="formData.Price" id="pricePriceEdit-@item.Id" class="form-control" type="text" value="@item.Price"/> Description: <input asp-for="formData.Description" id="priceDescriptionEdit-@item.Id" class="form-control" type="text" value="@item.Description"/> <input class="form-control btn btn-success" type="submit" value="Save"/></form></li>
+
+        }
+    </ul>
+        <center><div class="row g-3">
+            <div class="col"> <a class="btn btn-success mt-5 mb-5" data-bs-toggle="modal" data-bs-target = "#addModal"> Add new membership  <i class="bi bi-plus-circle"></i></a></div>
+                       <div class="col"> <a class="btn btn-danger mt-5 mb-5" data-bs-toggle="modal" data-bs-target = "#removeModal"> Remove membership  <i class="bi bi-dash-circle"></i></a></div>
+                       
+            </div></center>
+</div>
+<div class="modal" tabindex="-1"  id="addModal">
+<div class="modal-dialog modal-dialog-centered">
+     <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Add membership</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form asp-action="addPrice" onsubmit="return validatePriceAdd()"><div class="text-danger" id="priceNameError"></div><div class="text-danger" id="priceError"></div><div class="text-danger" id="priceDescriptionError"></div>Name: <input asp-for="formData.PassTypeName" id="priceName" class="form-control" type="text"/> Price: <input asp-for="formData.Price" class="form-control" id="pricePrice" type="text"/> Description: <input asp-for="formData.Description" class="form-control"id="priceDescription" type="text"/> <input class="form-control btn btn-success" type="submit" value="Save"/></form>
+      </div>
+    </div>
+</div>
+</div>
+
+<div class="modal" tabindex="-1"  id="removeModal">
+<div class="modal-dialog modal-dialog-centered">
+     <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Remove membership from list</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form asp-action="deletePrice">ID: <input asp-for="formData.Id" class="form-control" type="text"/><input class="form-control btn btn-danger" type="submit" value="Delete"/></form>
+      </div>
+    </div>
+</div>
+</div>

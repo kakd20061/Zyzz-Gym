@@ -1,0 +1,35 @@
+﻿@model MainPricingVm
+
+@{
+    ViewData["Title"] = "Home";
+}
+
+    <div class="pricing-area" style="margin-top:6em; margin-bottom:8em;">
+        <div class="container">
+        <h2 class="text-light text-center position-relative section-title mb-4">Membership</h2>
+        <div class="row">
+             @foreach(var item in Model.Pricing)
+             {
+                   <div class="col-lg-4 mt-5">
+                        <div class="single-pricing bg-dark h-100 position-relative">
+                            <div class="mask">
+                            <div class="deal-type"  data-aos="fade-down"  data-aos-duration="800">@item.PassTypeName</div>
+                            <div class="deal-amount"  data-aos="fade-down"  data-aos-duration="800">
+                                <div class="price">                            
+                                    <span class="money">@item.Price $</span>
+                                </div>
+                                <h4>/month</h4>
+                            </div>
+                            </div>
+                            <ul class="single-deal"  data-aos="fade-in"  data-aos-duration="1000">
+                                <li>@item.Description</li>
+                            </ul>
+                            <center><div class="abs"><button class="btn-buy" onclick="location.href='@Url.Action("Contact", "Main")'" data-hover="Contact"  data-aos="fade-up"  data-aos-duration="800"><div>Buy</div></button></div></center>
+                        </div>
+                    </div>
+             }
+             
+           
+        </div>
+    </div>
+    </div>

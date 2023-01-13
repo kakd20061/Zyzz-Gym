@@ -1,0 +1,49 @@
+﻿@{
+    ViewData["Title"] = "Contact";
+}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<div class="modal fade" id="modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalLabel">Error</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" id="error">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" id="modalButton" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="form-area" style="margin-top:3em; margin-bottom:8em;">
+        <div class="container">
+            <div class="row single-form g-0">
+                <div class="col-sm-12 col-lg-6" style="background-color:#a62935;">
+                    <div class="left">
+                        <h2  data-aos="fade-down"  data-aos-duration="800">Our location <i class="fa-solid fa-location-dot"></i></h2><br />
+                        <iframe class = "map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2574.1818880534897!2d19.051277215894572!3d49.820246540452715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47169f638c7b40bb%3A0x4900a7d4f718e079!2sW%C5%82adys%C5%82awa%20Broniewskiego%2010%2C%2043-300%20Bielsko-Bia%C5%82a!5e0!3m2!1spl!2spl!4v1669153556965!5m2!1spl!2spl" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-6 bg-dark">
+                    <div class="right">
+                          <div class="mb-3" data-aos="fade-left"  data-aos-duration="800">
+                            <label for="name" class="form-label" >Your Name</label>
+                            <input type="text" class="form-control" id="name"  >
+                          </div>
+                          <div class="mb-3" data-aos="fade-left"  data-aos-duration="800">
+                            <label for="email" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="email" >
+                          </div>
+                          <div class="mb-3" data-aos="fade-left"  data-aos-duration="800">
+                            <label for="message" class="form-label">Message</label>
+                              <textarea class="form-control" id="message"></textarea>
+                          </div>
+                          <button type="submit" class="btn btn-danger" id="send" onclick="sendMail()" data-aos="fade-up"  data-aos-duration="800">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
