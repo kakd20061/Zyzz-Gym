@@ -1,4 +1,20 @@
 
+# Zyzz Gym Site
+
+Zyzz Gym to strona stworzona przy uzyciu technologii ASP.NET
+
+Zyzz gym to projekt strony internetowej dla siłowni bądź jej klubu z możliwościami takimi jak:
+- Podgląd trenerów personalnych siłowni
+- Admin Panel 
+- Konta użytkowników 
+- System achievementów dla zalogowanych użytkowników
+- Statystyki na bazie achievementów (średnia podniesiony ciężar itd.)
+## Authors
+
+- [@Kajetan Dąbrowski](https://github.com/kakd20061)
+- [@Michał Białożyt](https://github.com/sachcim)
+
+
 ## Screenshots
 
 ![Main Page1](https://cdn.discordapp.com/attachments/808662634588667957/1169980550442922014/Zrzut_ekranu_2023-11-3_o_13.44.32.png?ex=6557604c&is=6544eb4c&hm=bfb41e2eaed81289cde299f0ad0deca75d6a9ee10b9007c242d8e870eaaf3579&)
