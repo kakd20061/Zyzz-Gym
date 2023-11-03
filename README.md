@@ -17,7 +17,7 @@ Zyzz gym to projekt strony internetowej dla siłowni bądź jej klubu z możliwo
 
 ## Screenshots
 
-![Main Page1](https://cdn.discordapp.com/attachments/808662634588667957/1169980550442922014/Zrzut_ekranu_2023-11-3_o_13.44.32.png?ex=6557604c&is=6544eb4c&hm=bfb41e2eaed81289cde299f0ad0deca75d6a9ee10b9007c242d8e870eaaf3579&)
+![Main Page1](https://media.discordapp.net/attachments/808662634588667957/1169980550442922014/Zrzut_ekranu_2023-11-3_o_13.44.32.png?ex=6557604c&is=6544eb4c&hm=bfb41e2eaed81289cde299f0ad0deca75d6a9ee10b9007c242d8e870eaaf3579&=&width=2172&height=1229)
 
 ![Main Page2](https://media.discordapp.net/attachments/808662634588667957/1169980808245809244/Zrzut_ekranu_2023-11-3_o_13.45.53.png?ex=65576089&is=6544eb89&hm=da7f4960b23dde8e58c289a80e0de3fd4ef4b26cb3a3ee74cc1f2e6a061a45a4&=&width=2159&height=1229)
 
